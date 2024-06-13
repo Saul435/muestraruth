@@ -1,0 +1,226 @@
+/*Encabezados de la pagina con el codigo "h1"
+Titulos de la pagina con "h2"
+Subtitulos con "h3"*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+	background-color: #df7ab1;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 5% 0px;
+	font-weight: bold;
+	position: relative; /* Mantiene el nav en su lugar */
+	z-index: 1; /* Z-index más alto para que el nav esté por encima de la imagen de fondo */
+	background-color: transparent; /* Asegura que el fondo del nav sea transparente */
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#foto1{
+	width: 65px;
+	height: auto;
+}
+
+ul{
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+}
+
+ul li{
+	display: inline-block;
+	padding: 0px 20px;
+	font-size: 20px;
+}
+
+a{
+	color: rgb(248, 229, 229);
+	text-decoration: none;
+}
+
+a:hover{
+	color: #df7ab0;
+}
+
+/*-----------------------------------------------------------------------------*/
+/*la parte de arriba es la parte de la barra de navegacion*/
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------*/
+/*esta parte es la parte de foot que es como la ultima parte*/
+.alfin{
+	width: 100%;
+	height: 420px;
+	object-fit: cover;
+	background-color: #df7ab1;
+	color: #f9fbeb;
+}
+#acompañame{
+	margin-left: 46%;
+	padding-top: 35px;
+	font-family: sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.redes{
+	font-size: 40px;
+	margin-top: 25px;
+	margin-left: 35%;
+	margin-right: 35%;
+	justify-content: space-between;
+}
+#linea1{
+	height: 2px;
+	background-color: #f9fbeb;
+	margin-top: 28px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#linea2{
+	height: 2px;
+	background-color: #f9fbeb;
+	margin-top: 210px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.ulfoot{
+	float: left;
+	margin: 2%;
+	margin-left: 15%;
+	flex-direction: column;
+	line-height: 33px;
+}
+.ulfoot2{
+	margin: 2%;
+	float: left;
+	flex-direction: column;
+	line-height: 33px;
+}
+.ulfoot3{
+	margin: 2%;
+	float: left;
+	flex-direction: column;
+	line-height: 33px;
+	justify-content: space-between;
+}
+
+.ulfoot4{
+	margin: 2%;
+	float: left;
+	flex-direction: column;
+	line-height: 33px;
+	justify-content: space-between;
+}
+
+h4{
+	float: left;
+	margin: 1%;
+	margin-left:37% ;
+	align-content: center;
+}
+
+/*-----------------------------------------------------------------------------*/
+/*Nosotros page*/
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Poppins";
+}
+
+html[data-page="unique-page"] body {
+	background-color: #F5EEF6;
+}
+
+h1{
+	font-size: 60px;
+}
+
+h2{
+	font-size: 26px;
+}
+
+h3{
+	font-size: 18px;
+}
+
+p {
+	font-size: 18px;
+}
+
+.flex{
+	display: flex;
+}
+
+.justify-center{
+	justify-content: center;
+	align-items: center;
+}
+
+#hero-identity{
+	background-image: url(hero-nosotros.png);
+	background-size: cover;
+	height: 450px;
+}
+
+.info-sub{
+	width: 100%;
+	color: #F5EEF6; 
+	text-align: center;
+}
+.color-blue{
+	background-color: #87B0F0;
+}
+
+.color-blue h2, .color-blue p{
+	color: #F5EEF6;
+} 
+
+.multi-section.color-blue div h2 , .multi-section.color-blue div p{
+	margin: 10px auto;
+}
+
+.multi-section.color-blue div{
+	text-align: center;
+	padding: 4%;
+}
+
+.multi-section.color-blue p{
+	width: 62%;
+	margin: auto;
+}
+
+.model-img-nosotros{
+	display: inline-block;
+	width: 725px;
+	height: 430px;
+}
+
+.model-img-nosotros img{
+	object-fit: cover;
+	width: inherit;
+	height: 100%;  
+}
+
+.style-general-nosotros-font{
+	padding: 0px;
+	margin: 4%;
+	display: inline-block;
+	width: 600px;
+	/*width: 40%;*/
+	height: 100%;
+}
+
+.style-general-nosotros-font p{
+	width: 100%;
+}
+
+.style-general-nosotros-font p, .style-general-nosotros-font h2{
+	color: #87B0F0;
+}
